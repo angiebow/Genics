@@ -5,5 +5,5 @@ function logResults(url) {
     .catch(error => console.log('An error occurred:', error));
 }
 
-const url = 'https://example.com/api/data';
+const url = 'https://randomuser.me/api/';
 logResults(url);
